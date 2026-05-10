@@ -1,3 +1,4 @@
+/* global afterEach, test, expect, global, beforeEach */
 import { render, screen, waitFor, fireEvent } from '@testing-library/react'
 import { vi } from 'vitest' // Use vi instead of jest
 import App from '../App'
